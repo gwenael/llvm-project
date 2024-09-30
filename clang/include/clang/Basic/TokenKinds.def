@@ -248,8 +248,12 @@ PUNCTUATOR(periodstar,          ".*")
 PUNCTUATOR(arrowstar,           "->*")
 PUNCTUATOR(coloncolon,          "::")
 
-// Objective C support.
+// Objective C and logodenn support.
 PUNCTUATOR(at,                  "@")
+
+//logodenn support
+PUNCTUATOR(colongreater,     ":>")
+
 
 // CUDA support.
 PUNCTUATOR(lesslessless,          "<<<")
